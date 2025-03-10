@@ -1,0 +1,83 @@
+/*reorganizar a numeração das cores de acordo com o tom */
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-red: #8a0b24;
+  --color-red-dark: #3a000b;
+  --color-gray: #959595;
+  --color-gray-1: #363636;
+  --color-gray-2: #7a7a7a;
+  --color-gray-3: #d9d9d9;
+  --color-gray-4: #bdbdbd;
+  --color-gray-5: #f3f3f3;
+  --color-gray-6: #e4e4e4;
+  --color-gray-7: #f0f0f0;
+  --color-gray-8: #7e7e7e;
+  --color-gray-9: #929292;
+  --color-gray-10: #5e5e5e;
+  --color-gray-11: #6f6f6e;
+  --gradient-gray: linear-gradient(90deg, #959595 0%, #5a5a5a 100%);
+  --gradient-red: linear-gradient(90deg, #8a0b24 0%, #7a3946 100%);
+}
+
+.color--red {
+  color: var(--color-red);
+}
+.color--red-dark {
+  color: var(--color-red-dark);
+}
+.color--gray {
+  color: var(--color-gray);
+}
+
+.color--gray-1 {
+  color: var(--color-gray-1);
+}
+
+.color--gray-2 {
+  color: var(--color-gray-2);
+}
+
+.color--gray-3 {
+  color: var(--color-gray-3);
+}
+
+.color--gray-4 {
+  color: var(--color-gray-4);
+}
+
+.color--gray-5 {
+  color: var(--color-gray-5);
+}
+
+.color--gray-6 {
+  color: var(--color-gray-6);
+}
+
+.color--gray-7 {
+  color: var(--color-gray-7);
+}
+
+.color--gray-8 {
+  color: var(--color-gray-8);
+}
+
+.color--gray-9 {
+  color: var(--color-gray-9);
+}
+
+.color--gray-10 {
+  color: var(--color-gray-10);
+}
+
+.color--gray-11 {
+  color: var(--color-gray-11);
+}
+
+.color--black {
+  color: var(--color-black);
+}
+
+.color--white {
+  color: var(--color-white);
+}

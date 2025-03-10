@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="/styles/base/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Logística Corretora de Seguros</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__inner">
+        <a href="index.html" class="header__logo">
+          <img
+            src="images/logo.svg"
+            alt="Logo da Logística Corretora de Seguros"
+          />
+        </a>
+        <button class="header__menu-button" aria-label="Abrir menu">
+          <img src="/images/ph--list.svg" alt="" />
+        </button>
+        <nav class="header__nav">
+          <ul class="font-b-regular-16 color-gray-1">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="servico-item.html">Serviços</a></li>
+            <li><a href="sobre-nos.html">Sobre Nós</a></li>
+          </ul>
+        </nav>
+        <a id="btn-contact" class="header__contact-button" href="contato.html">
+          Contato
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="banner">
+        <div class="contact-title">
+          <h2 class="font-b-regular-24 color--red">NOS CONTATE</h2>
+          <p class="font-r-light-12 color--gray-11">
+            Sinta-se livre para pedir um orçamento ou esclarecer alguma dúvida.
+            Vamos te retornar assim que possível!
+          </p>
+        </div>
+      </div>
+      <div class="division">
+        <div class="frame-form contact">
+          <div class="info-contact">
+            <div>
+              <img
+                class="info-icon"
+                src="/images/localizacao-icon.svg"
+                alt="Ícone de localização"
+              />
+              <span class="color--gray-8 font-b-regular-14"
+                >Centro Profissional Rui Barbosa<br />Av. Luiz Manoel Gonzaga
+                351, Sala 406<br />Três Figueiras - Porto Alegre - RS
+              </span>
+            </div>
+            <div>
+              <img
+                class="info-icon"
+                src="/images/email-icon.svg"
+                alt="Ícone de email"
+              />
+              <span class="color--gray-8 font-b-regular-14"
+                >logisticaseguros@logisticaseguros.com.br</span
+              >
+            </div>
+            <div>
+              <img
+                class="info-icon"
+                src="/images/telefone-icon.svg"
+                alt="ícone de telefone"
+              />
+              <span class="color--gray-8 font-b-regular-14"
+                >(51) 3273-2790</span
+              >
+            </div>
+          </div>
+
+          <form
+            id="contact-form"
+            class="form form--contact"
+            action="https://formsubmit.co/f171843264f13be89097cabdf741a46b"
+            method="POST"
+          >
+            <div class="form__group">
+              <label class="form__label" for="name">Nome:</label>
+              <input
+                class="form__input"
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Email:</label>
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="message">Mensagem:</label>
+              <textarea
+                class="form__textarea"
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <div class="form__group">
+              <button class="form__button" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-first-column">
+            <div class="contact-employee">
+              <span>COMERCIAL/SÓCIO RESPONSÁVEL</span>
+              <span>Dennis Trein</span>
+              <span
+                ><a
+                  href="#"
+                  onclick="copyToClipboard(event, '+55 51 99973 7421')"
+                  >+55 51 99973 7421</a
+                ></span
+              >
+              <span
+                ><a href="mailto:dennis@logisticaseguros.com.br"
+                  >dennis@logisticaseguros.com.br</a
+                ></span
+              >
+            </div>
+            <div class="contact-employee">
+              <span>DEPTO. TÉCNICO/ADMINISTRATIVO</span>
+              <span>Lidiane Hackmann</span>
+              <span
+                ><a
+                  href="#"
+                  onclick="copyToClipboard(event, '+55 51 99179 0739')"
+                  >+55 51 99179 0739</a
+                ></span
+              >
+              <span
+                ><a href="mailto:lidiane@logisticaseguros.com.br"
+                  >lidiane@logisticaseguros.com.br</a
+                ></span
+              >
+            </div>
+            <div class="contact-employee">
+              <span>DEPTO. SINISTROS</span>
+              <span>Miguel Luis Fernández</span>
+              <span
+                ><a
+                  href="#"
+                  onclick="copyToClipboard(event, '+55 51 99530 8687')"
+                  >+55 51 99530 8687</a
+                ></span
+              >
+              <span
+                ><a href="mailto:miguel@logisticaseguros.com.br"
+                  >miguel@logisticaseguros.com.br</a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="contact-second-column">
+            <div class="contact-employee">
+              <span>DEPTO. OPERACIONAL</span>
+              <span>Wagner Carollo</span>
+              <span
+                ><a
+                  href="#"
+                  onclick="copyToClipboard(event, '+55 51 99381 2829')"
+                  >+55 51 99381 2829</a
+                ></span
+              >
+              <span
+                ><a href="mailto:operacional@logisticaseguros.com.br"
+                  >operacional@logisticaseguros.com.br</a
+                ></span
+              >
+            </div>
+            <div class="contact-employee">
+              <span>DEPTO. TÉCNICO/TRANSPORTES</span>
+              <span>Leandro Braem</span>
+              <span
+                ><a
+                  href="#"
+                  onclick="copyToClipboard(event, '+55 51 99864 0955')"
+                  >+55 51 99864 0955</a
+                ></span
+              >
+              <span
+                ><a href="mailto:leandro.braem@logisticaseguros.com.br"
+                  >leandro.braem@logisticaseguros.com.br</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__links">
+          <h5 class="footer__title">Links Rápidos</h5>
+          <span class="footer__separator"></span>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="index.html" class="footer__link">Início</a>
+            </li>
+            <li class="footer__item">
+              <a href="servico-item.html" class="footer__link">Serviços</a>
+            </li>
+            <li class="footer__item">
+              <a href="sobre-nos.html" class="footer__link">Sobre Nós</a>
+            </li>
+            <li class="footer__item">
+              <a href="index.html#parceiros" class="footer__link">Parceiros</a>
+            </li>
+            <li class="footer__item">
+              <a href="contato.html" class="footer__link">Contato</a>
+            </li>
+            <li class="footer__item">
+              <a href="index.html#faq" class="footer__link">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <p class="footer__address">
+            Centro Profissional Rui Barbosa<br />
+            Av. Luiz Manoel Gonzaga, 351, sala 406<br />
+            Três Figueiras - Porto Alegre - RS
+          </p>
+          <span class="footer__separator"></span>
+          <p class="footer__phone">(51) 3273-2790</p>
+        </div>
+        <div class="footer__social-media">
+          <img
+            id="footer__logo"
+            src="/images/logo-simples-branco.svg"
+            alt="Logo"
+          />
+          <span class="footer__social-text"
+            >Nos acompanhe pelas redes sociais</span
+          >
+          <div class="footer__social-icons">
+            <a href="https://www.linkedin.com/in/dennis-trein-488a8723/">
+              <img
+                src="/images/linkedin.svg"
+                alt="LinkedIn"
+                class="footer__social-icon"
+            /></a>
+            <a
+              href="https://www.instagram.com/logisticaseguros/?igsh=MXF0MXo5d2phZjd3ag%3D%3D#"
+            >
+              <img
+                src="/images/instagram.svg"
+                alt="Instagram"
+                class="footer__social-icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <span class="footer__privacy">
+        Logística Corretora de Seguros - 2024 (<a
+          href=""
+          class="color--red footer__privacy-link"
+          >Clique aqui
+        </a>
+        &nbsp;para conhecer nossa Política de Privacidade)
+      </span>
+    </footer>
+
+    <script src="/scripts/header.js"></script>
+    <script src="/scripts/general.js"></script>
+
+    <style>
+      .copy-notification {
+        position: absolute;
+        background-color: #333;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        display: none;
+        z-index: 1000;
+      }
+
+      .copy-notification.visible {
+        display: block;
+      }
+    </style>
+  </body>
+</html>

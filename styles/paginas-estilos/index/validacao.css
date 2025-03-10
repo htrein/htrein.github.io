@@ -1,0 +1,103 @@
+.validacao-section {
+  background-image: url("/images/imgvalidacao.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  position: relative;
+}
+.validacao-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+.validacao-texto {
+  text-align: left;
+  width: 40ch;
+  margin-left: 180px;
+  margin-top: 240px;
+}
+.validacao-conteudo {
+  margin-top: 100px;
+  padding: 60px 80px;
+  background-image: var(--gradient-red);
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.validacao-conteudo ul {
+  display: flex;
+  gap: 60px;
+}
+.validacao-paragrafo {
+  width: 24ch;
+  text-align: center;
+}
+.validacao-conteudo li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .validacao-section {
+    height: auto; /* Adjust height for smaller screens */
+    background-color: var(--color-gray-5);
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+  }
+
+  .validacao-grid {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .validacao-texto {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 80%; /* Adjust width for smaller screens */
+    text-align: center; /* Center text for smaller screens */
+    color: white;
+  }
+  .validacao-section::before {
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.7
+    ); /* Darker overlay for smaller screens */
+  }
+  .validacao-conteudo {
+    margin-top: 20px;
+    padding: 20px;
+    width: 80%; /* Adjust width for smaller screens */
+    background-image: var(--gradient-red);
+    border-radius: 16px;
+    padding-bottom: 40px;
+  }
+
+  .validacao-conteudo ul {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .validacao-paragrafo {
+    width: 100%;
+  }
+
+  .validacao-conteudo li {
+    gap: 8px;
+  }
+}

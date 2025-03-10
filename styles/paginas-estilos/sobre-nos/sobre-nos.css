@@ -1,0 +1,213 @@
+.sobre-nos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+/*******************************/
+.sobre-nos {
+  position: relative;
+  padding: 40px;
+  background-image: url("/images/p6.webp");
+  background-repeat: repeat;
+  background-size: auto;
+  padding-bottom: 80px;
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.sobre-nos-grid img {
+  width: 300px;
+  height: auto;
+}
+.sobre-nos-grid > div:first-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre-nos-grid > div:nth-of-type(2) h3 {
+  padding-bottom: 20px;
+}
+/*******************************/
+
+.sobre-nos-validacao {
+  background-color: var(--color-red);
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.sobre-nos-validacao-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 60px;
+  gap: 60px;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.sobre-nos-validacao img {
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  justify-self: center;
+}
+.sobre-nos-validacao__imagem {
+  position: relative;
+}
+.sobre-nos-validacao-grid__conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.sobre-nos-validacao__stamp {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 140px;
+  border-radius: 8px;
+  gap: 4px;
+  position: absolute;
+  top: 160px;
+  left: 100px;
+}
+/*******************************/
+
+.sobre-nos-porque-nos {
+  padding: 60px 0;
+  background-image: url("/images/p6.webp");
+  background-repeat: repeat;
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.sobre-nos-porque-nos-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 90ch;
+  text-align: center;
+  padding-bottom: 60px;
+  gap: 10px;
+}
+.sobre-nos-porque-nos__conteudo {
+  display: flex;
+  max-width: 1160px;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.sobre-nos-porque-nos__conteudo li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: auto;
+}
+
+/*******************************/
+
+.sobre-nos-conhecimento {
+  background-color: var(--color-gray-5);
+  padding-bottom: 30px;
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.sobre-nos-conhecimento__titulo {
+  text-align: center;
+  padding-top: 40px;
+}
+.sobre-nos-conhecimento__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1160px;
+  align-items: center;
+  gap: 60px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.sobre-nos-conhecimento img {
+  width: 400px;
+  height: auto;
+}
+
+/*******************************/
+@media (max-width: 768px) {
+  .sobre-nos-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .sobre-nos-grid img {
+    display: none;
+  }
+  .sobre-nos-grid p {
+    text-align: justify;
+  }
+  .sobre-nos-validacao-grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .sobre-nos-validacao-grid h3 {
+    padding: 0 60px;
+  }
+  .sobre-nos-validacao-grid p {
+    text-align: justify;
+    padding: 0 40px;
+  }
+  .sobre-nos-validacao img {
+    display: none;
+  }
+  .sobre-nos-validacao__stamp {
+    display: none;
+  }
+  .sobre-nos-validacao-grid__conteudo {
+    align-items: center;
+    text-align: center;
+  }
+  .sobre-nos-porque-nos__conteudo {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .sobre-nos-porque-nos-titulo p {
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 40ch;
+  }
+  .sobre-nos-porque-nos__conteudo li {
+    width: 100%;
+  }
+  .sobre-nos-porque-nos__conteudo li div p {
+    padding: 0 40px;
+  }
+  .sobre-nos-conhecimento__grid {
+    grid-template-columns: 1fr;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sobre-nos-conhecimento__grid p {
+    padding: 0 40px;
+    text-align: justify;
+    padding-bottom: 40px;
+  }
+  .sobre-nos-conhecimento img {
+    width: 200px;
+    padding-bottom: 0;
+  }
+
+  .sobre-nos-conhecimento p {
+    padding-top: px;
+    margin-top: -50px;
+  }
+}

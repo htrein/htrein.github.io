@@ -1,0 +1,80 @@
+.servicos-modalidade::before {
+  content: "";
+  display: inline-block;
+  background-image: url(/images/flecha-dupla.svg);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+  align-items: center;
+  transform: rotate(-90deg);
+}
+.servicos-modalidade::after {
+  content: "";
+  display: inline-block;
+  background-color: var(--color-gray-3);
+  width: 1160px;
+  height: 2px;
+  position: absolute;
+  top: 48px;
+}
+.cards-list {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 40px;
+  overflow-x: scroll;
+  max-width: 1900px;
+  width: 100%;
+}
+.cards-list-para-voce::-webkit-scrollbar {
+  display: none;
+}
+.cards-list-para-voce {
+  scrollbar-width: none;
+}
+.cards-list-para-voce {
+  -ms-overflow-style: none;
+  margin-bottom: 160px;
+}
+.servicos-modalidade {
+  position: relative;
+  max-width: 1160px;
+  margin: 32px auto;
+  display: flex;
+  align-items: center;
+}
+.servicos-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .servicos-modalidade::after {
+    max-width: 100%;
+  }
+  .servicos-modalidade::before {
+    margin-left: 20px; /* Adjust this value to move it more to the right */
+  }
+  .cards-list {
+    gap: 20px;
+  }
+
+  .ser .servicos-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .cards-list::-webkit-scrollbar {
+    display: none;
+  }
+  .cards-list {
+    scrollbar-width: none;
+  }
+  .cards-list {
+    -ms-overflow-style: none;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,115 @@
+.banner {
+  background-image: url("/images/contato-banner.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80px;
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.info-icon {
+  width: 28px;
+  height: auto;
+  padding-bottom: 15px;
+}
+.info-contact div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.info-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.division {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 64px 0;
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact-title {
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+.contact-title h2 {
+  padding-bottom: 8px;
+}
+.contact-funcionario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  margin-right: 64px;
+}
+.contact-first-column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.contact-second-column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.contact-employee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.contact-employee > :nth-child(1) {
+  font: 300 0.9rem/1 "Barlow", sans-serif;
+  color: var(--color-black);
+}
+.contact-employee > :nth-child(2) {
+  font: 400 1.15rem/1 "Roboto Slab", sans-serif;
+  color: var(--color-gray-1);
+}
+
+.contact-employee > :nth-child(3),
+.contact-employee > :nth-child(4) {
+  font: 300 0.9rem/1 "Roboto Slab", sans-serif;
+  color: var(--color-red);
+}
+@media (max-width: 768px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+  .contact-title {
+    padding-bottom: 20px;
+  }
+  .division {
+    grid-template-columns: 1fr;
+    padding: 32px 0;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+    margin-right: 0;
+  }
+  .contact-second-column {
+    margin-top: -30px;
+  }
+  .info-contact {
+    padding-bottom: 40px;
+  }
+}

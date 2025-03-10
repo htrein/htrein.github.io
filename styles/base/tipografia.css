@@ -1,0 +1,155 @@
+/*organizar melhor*/
+.font-r-light-56 {
+  font: 300 3.5rem/1.25 "Roboto Slab", sans-serif;
+  letter-spacing: -0.02em;
+}
+.font-b-regular-36 {
+  font: 400 2.25rem/1.25 "Barlow", sans-serif;
+  letter-spacing: -0.02em;
+}
+.font-b-regular-24 {
+  font: 400 1.5rem/1.25 "Barlow", sans-serif;
+  letter-spacing: -0.02em;
+}
+.font-b-light-64 {
+  font: 400 4rem/1 "Barlow", sans-serif;
+  letter-spacing: -0.04em;
+}
+.font-b-regular-16 {
+  font: 400 1rem/1.25 "Barlow", sans-serif;
+  letter-spacing: 0.015em;
+}
+.font-b-light-16 {
+  font: 300 1rem/1.25 "Barlow", sans-serif;
+  letter-spacing: 0.015em;
+}
+.font-b-regular-14 {
+  font: 400 0.875rem/1 "Barlow", sans-serif;
+  letter-spacing: 0.015em;
+}
+.font-r-regular-16 {
+  font: 400 1.1rem/1.5 "Roboto Slab", sans-serif;
+}
+.font-r-regular-32 {
+  font: 400 2rem/1.25 "Roboto Slab", sans-serif;
+}
+.font-r-light-20 {
+  font: 300 1.25rem/1.5 "Roboto Slab", sans-serif;
+}
+.font-r-light-16 {
+  font: 400 1rem/1.5 "Roboto Slab", sans-serif;
+}
+.font-r-light-12 {
+  font: 300 0.75rem/1.5 "Roboto Slab", sans-serif;
+}
+.font-b-regular-16-btn {
+  font: 400 1rem/1.5 "Barlow", sans-serif;
+  letter-spacing: 0.0625em;
+}
+.font-r-validacao {
+  font: 300 3rem/1.25 "Roboto Slab", sans-serif;
+  letter-spacing: 0.015em;
+}
+.font-r-validacao-p {
+  font: 300 1rem/1.25 "Roboto Slab", sans-serif;
+}
+.font-r-servicos-h4 {
+  font: 300 1.5rem/1.5 "Roboto Slab", sans-serif;
+}
+.font-b-bold-text {
+  font: 700 2rem/1.25 "Barlow", sans-serif;
+  letter-spacing: -0.02em;
+}
+.font-b-black-64 {
+  font: 800 4rem/1.25 "Barlow", sans-serif;
+}
+.font-b-light-48 {
+  font: 300 3rem/1 "Barlow", sans-serif;
+}
+.font-b-bold-24 {
+  font: 700 1.25rem/1.25 "Barlow", sans-serif;
+}
+.font-r-bold-36 {
+  font: 700 2rem/1.25 "Roboto Slab", sans-serif;
+}
+.font-b-medium-40 {
+  font: 500 2rem/1.2 "Barlow", sans-serif;
+}
+.section-title {
+  text-align: center;
+  color: var(--color-red);
+}
+.section-subtitle {
+  text-align: center;
+  padding-top: 12px;
+  color: var(--color-gray);
+}
+.font-b-regular-40 {
+  font: 400 2rem/1.5 "Barlow", sans-serif;
+}
+@media (max-width: 768px) {
+  .font-r-light-56 {
+    font-size: 2.4rem;
+    line-height: 1.2;
+  }
+  .font-b-regular-36 {
+    font-size: 1.8rem;
+  }
+  .font-b-regular-24 {
+    font-size: 1.2rem;
+  }
+  .font-b-light-64 {
+    font-size: 2.8rem;
+  }
+  .font-b-regular-16,
+  .font-b-light-16,
+  .font-b-regular-16-btn {
+    font-size: 0.8rem;
+  }
+  .font-b-regular-14 {
+    font-size: 0.7rem;
+  }
+  .font-r-regular-16 {
+    font-size: 0.88rem;
+  }
+  .font-r-regular-32 {
+    font-size: 1.6rem;
+  }
+  .font-r-light-20 {
+    font-size: 1rem;
+  }
+  .font-r-light-16 {
+    font-size: 0.8rem;
+  }
+  .font-r-validacao {
+    font-size: 2.4rem;
+  }
+  .font-r-validacao-p {
+    font-size: 0.8rem;
+  }
+  .font-r-servicos-h4 {
+    font-size: 1.2rem;
+  }
+  .font-r-light-12 {
+    font-size: 0.6rem;
+  }
+  .font-b-bold-text {
+    font-size: 1.6rem;
+  }
+  .font-b-black-64 {
+    font-size: 3.2rem;
+  }
+  .font-b-light-48 {
+    font-size: 2.4rem;
+  }
+  .font-b-bold-24 {
+    font-size: 1rem;
+  }
+  .font-r-bold-36 {
+    font-size: 1.6rem;
+  }
+  .font-b-medium-40,
+  .font-b-regular-40 {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,9 @@
+- perguntas do faq
+- imagens dos cards
+- textos dos cards
+- unidades do rj e caxias?
+- linkar apresentação
+- rever todos os textos
+- texto hero section
+- refazer seção de validação do index
+- problema de ampliação na hero section
